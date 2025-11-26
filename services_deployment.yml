@@ -34,7 +34,7 @@ spec:
   type: NodePort
   ports:
   - protocol: TCP
-    port: 8080
+    port: 50050
     targetPort: 80
     nodePort: 31001
 
@@ -75,7 +75,7 @@ spec:
   type: NodePort
   ports:
   - protocol: TCP
-    port: 8080
+    port: 50050
     targetPort: 80
     nodePort: 31002
 
@@ -116,7 +116,7 @@ spec:
   type: NodePort
   ports:
   - protocol: TCP
-    port: 8080
+    port: 50050
     targetPort: 80
     nodePort: 31003
 
@@ -157,7 +157,7 @@ spec:
   type: NodePort
   ports:
   - protocol: TCP
-    port: 8080
+    port: 50050
     targetPort: 80
     nodePort: 31004
 
@@ -198,6 +198,6 @@ spec:
   type: NodePort
   ports:
   - protocol: TCP
-    port: 8080
+    port: 50050
     targetPort: 80
     nodePort: 31000
