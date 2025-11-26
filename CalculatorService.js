@@ -2,7 +2,7 @@ var http = require('http');
 var request = require('sync-request');
 
 const PORT = 80;
-const service_ip = '10.10.10.100';
+const service_ip = '10.10.0.164';
 
 // Calculator microservices
 const SUM_SERVICE_IP_PORT = 'http://' + service_ip + ':31001';
@@ -11,7 +11,7 @@ const MUL_SERVICE_IP_PORT = 'http://' + service_ip + ':31003';
 const DIV_SERVICE_IP_PORT = 'http://' + service_ip + ':31004';
 
 // FastAPI metrics endpoint
-const METRICS_SERVICE = 'http://10.10.10.230:50060/measures';
+const METRICS_SERVICE = 'http://10.10.0.164:50060/measures';
 
 // Names for operations
 function getOperationName(op) {
